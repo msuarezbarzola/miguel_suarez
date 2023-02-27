@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>.: Miguel Suárez :.</title>
+        <title>.: Miguel Angel Suárez Barzola :.</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="img/logo.png" />
+        <link rel="icon" type="image/x-icon" href="img/taurus.png" />
 
 <!-- desde modelo de diseño -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700" rel="stylesheet">
@@ -23,7 +23,8 @@
 <!-- <script src="js/modernizr-2.6.2.min.js"></script> -->
 <!-- ------- -->
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="dist/css/bootstrap.css" />
+        <!-- <link rel="stylesheet" href="dist/css/bootstrap.css" /> -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
 
 
         <!-- Bootstrap icons-->
@@ -43,7 +44,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
-                <img src="img/logo.png" class="nav-link dropdown-toggle img-fluid rounded-circle"  
+                <img src="img/taurus.png" class="nav-link dropdown-toggle img-fluid rounded-circle"  
                 href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false"></img>
                 <a class="navbar-brand fw-bolder fs-6" href="index.html" style="color: #64b5f6;">Miguel Suárez</a>
@@ -87,11 +88,11 @@
         <!-- Header-->
         <header class="bg-warning py-1">
             <div class="container px-4 px-lg-5 my-1">
-                <div class="text-center text-white">
+                <div class="text-center text-white" style="color: #2F3A8F !important;">
                     <div class="row">
                         <div class="col-sm-12" style="display: flex; align-items: center;">
                             <p class="animate__animated animate__zoomIn">
-                                "He desarrollado soluciones informáticas para distintintas empresas durante 14 años. Lo que me permite poder ayudarte ahora, automatizando tu negocio de una manera fácil y rápida."
+                                "He desarrollado soluciones informáticas para distintintas empresas durante 14 años. Lo que me permite poder ayudarte automatizando tu negocio de una manera fácil y rápida."
                             </p>
                         </div>
                     </div>                
@@ -133,7 +134,7 @@
                         target="_blank"
                         style="text-decoration:none; color:white;"
                     >
-                        Copyright 2022 &copy; - Miguel Suárez&nbsp;
+                        Copyright <span id="year_now_site"></span> &copy; - Miguel Suárez&nbsp;
                         <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="24px" height="24px" 
                         fill-rule="evenodd" clip-rule="evenodd">
                             <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"/>
@@ -154,5 +155,6 @@
         <!-- <script src="js/scripts.js"></script> -->
     </body>
 </html>
-
-
+<script language="JavaScript">
+    document.getElementById("year_now_site").innerHTML=new Date().getFullYear();
+</script>
