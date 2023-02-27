@@ -444,7 +444,10 @@ figure {
 }
 .gtco-services .service h3 {
   font-size: 13px;
-  color: #000;
+  /* msuarez */
+  /* color: #000; */
+  color: #7f669d;
+  font-weight: bold;
   text-align: left;
   position: relative;
   padding-left: 30px;
@@ -459,7 +462,9 @@ figure {
 .gtco-services .service p {
   text-align: left;
   /* color: #898989; */
-  color: #62727b;
+  /* msuarez */
+  /* color: #62727b; */
+  color: #2f3a8f;
   font-size: 12px;
 }
 .gtco-services .service p:last-child {
